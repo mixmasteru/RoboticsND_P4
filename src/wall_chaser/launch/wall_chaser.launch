@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- The drive_bot node -->
+    <node name="drive_bot" type="drive_bot" pkg="wall_chaser" output="screen">
+    </node>
+
+    <!-- The process_scan node -->
+    <node name="wall_chaser" type="wall_chaser" pkg="wall_chaser" output="screen">
+    </node>
+
+</launch>
