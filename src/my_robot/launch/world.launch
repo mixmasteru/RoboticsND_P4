@@ -36,12 +36,12 @@
   <!--launch rviz-->
   <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d $(find my_robot)/my_robot.rviz"/>
 
-  <!-- The drive_bot node -->
+  <!-- The drive_bot node
   <node name="drive_bot" type="drive_bot" pkg="wall_chaser" output="screen">
-  </node>
+  </node>-->
 
-  <!-- The process_scan node -->
+  <!-- The process_scan node
   <node name="wall_chaser" type="wall_chaser" pkg="wall_chaser" output="screen">
-  </node>
+  </node>-->
 
 </launch>
