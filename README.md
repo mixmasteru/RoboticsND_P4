@@ -1,30 +1,18 @@
 # Robotics Software Engineer
 
-## Project 3 - Where Am I
+## Project 4 - Map My World Robot
  
-Welcome to the Where Am I? localization project! In this project, you will learn to utilize ROS AMCL package to accurately localize a mobile robot inside a map in the Gazebo simulation environments.
+Overview
+Welcome to Project 3: Map My World! In this project you will create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
 
-Over the course of this lesson, you will learn several aspects of robotic software engineering with a focus on ROS:
+RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to develop robots that can map environments in 3D. RTAB-Map has good speed and memory management, and it provides custom developed tools for information analysis. Most importantly, the quality of the documentation on ROS Wiki (http://wiki.ros.org/rtabmap_ros) is very high. Being able to leverage RTAB-Map with your own robots will lead to a solid foundation for mapping and localization well beyond this Nanodegree program.
 
-- Create a ROS package that launches a custom robot model in a custom Gazebo world
-- Utilize the ROS AMCL package and the Tele-Operation / Navigation Stack to localize the robot
-- Explore, add, and tune specific parameters corresponding to each package to achieve the best possible localization results
+For this project we will be using the rtabmap_ros package, which is a ROS wrapper (API) for interacting with RTAB-Map. Keep this in mind when looking at the relative documentation.
 
-Tasks: Where Am I Project
 
-- [x] Set up simulation: environment and robot
-- [x] Generate ground truth map from your Gazebo world
-- [x] Build your AMCL launch file
-- [x] Select proper localization parameters
-- [x] Add teleop node
-- [x] Put it all together
-- [x] add simple wall detection
+![DB-Viewer](db-viewer.png)
 
-  
 ![Demo](screen.gif)
-
-
-
 
 
 
