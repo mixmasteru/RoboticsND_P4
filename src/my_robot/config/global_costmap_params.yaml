@@ -7,4 +7,4 @@ global_costmap:
    height: 20.0
    resolution: 0.05
    static_map: true
-   rolling_window: false
+   rolling_window: true
